@@ -1,17 +1,20 @@
 body{
-    color: #2E2F42;
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
-button{
+.button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
     color: #FFFFFF;
     border: none;
-    border-radius: 4px;
     background-color:#4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-button:hover{
+.button:hover{
     background-color: #404BBF;
 }
 
@@ -20,7 +23,13 @@ a{
     text-decoration: none;
 }
 
-.link:hover, .link:focus{
+.link{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link:hover, .link:focus, .link-a:hover, .link-a:focus{
     color: #404BBF;
 }
 
@@ -32,45 +41,52 @@ ul{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .logo-studio{
- /*   color: #2E2F42;*/
-font-family: 'Raleway', sans-serif;
+color: #2E2F42;
+/*font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 0.54px;
-text-transform: uppercase;
+text-transform: uppercase;*/
+}
+
+.adress{
+    font-style: normal
+}
+
+.link-a{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 
 .hero-image{
-    /*height: 600px;*/
-    flex-shrink: 0;
     background-color: #2E2F42;
     color: #FFFFFF;
 }
 
-.hero-image h1{
+.h1-hi{
     color: #FFFFFF;
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
     letter-spacing: 1.12px;
 }
 
-.section1 h3, .section2 h3, .section3 h3{
+.h3-s1, .h3-s2, .h3-s3{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; /* 120% */
-    letter-spacing: 0.4px;
+    letter-spacing: 0.02em;
 }
 
-.section1 p, .section2 p, .section3 p{
+.p-s1, .p-s2, .p-s3{
     color: #434455;
     font-size: 16px;
     line-height: 1.5; /* 150% */
@@ -80,8 +96,12 @@ text-transform: uppercase;
 .section2{
     background-color: #F4F4FD;
 }
-.section2 h2, .section3 h2{
-    text-align: center;
+
+.li-s2{
+    background-color: #FFFFFF;
+}
+
+.h2-s2, .h2-s3{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11; /* 111.111% */
@@ -109,16 +129,19 @@ text-transform: uppercase;
 .footer{
     background-color: #2E2F42;
 }
-.footer .logo-studio{
-    color: #F4F4FD;
-    font-size: 18px;
+.logo-fut{
+    font-family: "Raleway";
     font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.54px;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-s-fut{
+    color: #F4F4FD;
 }
 .footer p{
-    width: 264px;
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
