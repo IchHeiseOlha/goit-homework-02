@@ -112,6 +112,7 @@ text-transform: uppercase;*/
 }
 
 .h_zwei-s_drei, .h_zwei-s_zwei{
+    color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11; /* 111.111% */
