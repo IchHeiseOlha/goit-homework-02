@@ -4,7 +4,7 @@ body{
     background-color: #FFFFFF;
 }
 
-.h1-hi{
+.h-hi{
     text-align: center;
 }
 
@@ -76,7 +76,7 @@ text-transform: uppercase;*/
     color: #FFFFFF;
 }
 
-.h1-hi{
+.h-hi{
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
@@ -84,11 +84,11 @@ text-transform: uppercase;*/
     letter-spacing: 1.12px;
 }
 
-.h2-s2{
+.h_zwei-s_zwei{
     text-align: center;
 }
 
-.h3-s1, .h3-s2, .h3-s3{
+.h_drei-s_einz, .h_drei-s_zwei, .h_drei-s_drei{
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -96,22 +96,22 @@ text-transform: uppercase;*/
     letter-spacing: 0.02em;
 }
 
-.p-s1, .p-s2, .p-s3{
+.p-s_einz, .p-s_zwei, .p-s_drei{
     color: #434455;
     font-size: 16px;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
 }
 
-.section2{
+.section_zwei{
     background-color: #F4F4FD;
 }
 
-.li-s2{
+.li-s_zwei{
     background-color: #FFFFFF;
 }
 
-.h2-s2, .h2-s3{
+.h_zwei-s_drei, .h_zwei-s_zwei{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11; /* 111.111% */
